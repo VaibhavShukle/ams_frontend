@@ -44,7 +44,6 @@ function Photos() {
     axios
       .get("http://localhost:8081/api/asset/get/" + id)
       .then((res) => {
-        console.log(res);
         // imageArray.push(
         //   `http://localhost:8081/` + res.data.Result[0].asset_image
         // );
